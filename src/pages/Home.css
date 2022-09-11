@@ -1,0 +1,45 @@
+.homeContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+
+
+  width: 100vw;
+  height: 100vh;
+  background: url(../img/home.jpg) center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  color: aliceblue;
+
+
+}
+
+.homeContainer span {
+  font-size: 4em;
+  font-family: 'Rufina', serif;
+}
+
+.homeContainer p {
+  position: static;
+  width: 45rem;
+}
+
+.homebtn {
+  background-color: #fff;
+  width: 10em;
+  height: 10em;
+  border-radius: 8em;
+
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+
+  transition: 0.3s;
+}
+
+.homebtn:hover {
+  box-shadow: 0px 10px 15px 15px #fff;
+}
