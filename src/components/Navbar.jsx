@@ -2,7 +2,7 @@ import './Navbar.css'
 
 import { NavLink, Link } from 'react-router-dom'
 
-import logo from '../img/logo.jpg'
+import logo from '../img/logo.png'
 
 const NavBar = () => {
   return (
