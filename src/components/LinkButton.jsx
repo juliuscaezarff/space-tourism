@@ -1,7 +1,9 @@
-const LinkButton = () => {
+import { Link } from "react-router-dom"
+
+const LinkButton = ({to, text}) => {
 
   return(
-    <div></div>
+    <Link to={to}>{text}</Link>
   )
 }
 

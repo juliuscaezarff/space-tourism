@@ -1,6 +1,6 @@
 import './Home.css'
 
-import { NavLink } from 'react-router-dom'
+import LinkButton from '../components/LinkButton'
 
 const Home = () => {
   return (
@@ -13,6 +13,7 @@ const Home = () => {
         repellendus facere esse nesciunt eveniet animi saepe eos alias
         voluptatibus!
       </p>
+      <LinkButton text='ir para o espaço' to="/tickets"/>
     </section>
   )
 }
