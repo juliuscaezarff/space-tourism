@@ -13,9 +13,7 @@ const Home = () => {
         repellendus facere esse nesciunt eveniet animi saepe eos alias
         voluptatibus!
       </p>
-      <NavLink className="homebtn" to="/tickets">
-        clique
-      </NavLink>
+      <NavLink className="homebtn" to="/tickets">Clique</NavLink>
     </section>
   )
 }
