@@ -1,6 +1,15 @@
 .navBar {
+  width: 100%;
   display: flex;
+  justify-content: space-around;
+  align-items: center;
+
   background-color: rgb(0, 0, 0);
+
+  height: 9vh;
+
+
+
 }
 
 .logo {
@@ -8,20 +17,22 @@
   height: 4em;
 }
 
-.list {
-  display: flex;
-  align-items: center;
-  gap: 3.2rem;
-  left: 7.2rem;
-
+.navBar ul {
   list-style: none;
+ 
+
+  display: flex;
 }
 
-.item {
-  margin-right: 1em;
+.navBar li {
+  letter-spacing: 0.2em;
+  margin-left: 32px;
+ 
+ 
 }
 
-.item a {
-  color: #fff;
+.navBar li a {
   text-decoration: none;
+
+  color: #fff;
 }
