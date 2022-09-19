@@ -1,9 +1,9 @@
 .homeContainer {
   display: flex;
-  flex-direction: column;
+
   justify-content: center;
   align-items: center;
-  gap: 2em;
+  gap: 20em;
 
 
   width: 100vw;
@@ -14,15 +14,22 @@
 
   color: aliceblue;
 
-
 }
 
-.homeContainer span {
-  font-size: 4em;
+.homeContent {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.homeContent span {
+  font-size: 6em;
   font-family: 'Rufina', serif;
+  line-height: 1.5em;
+
 }
 
-.homeContainer p {
+.homeContent p {
   position: static;
   width: 45rem;
 }

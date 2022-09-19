@@ -5,6 +5,7 @@ import LinkButton from '../components/LinkButton'
 const Home = () => {
   return (
     <section className="homeContainer">
+      <div className='homeContent'>
       <h1>O que você está esperando para ir até o </h1>
       <span>ESPAÇO</span>
       <p>
@@ -13,6 +14,7 @@ const Home = () => {
         repellendus facere esse nesciunt eveniet animi saepe eos alias
         voluptatibus!
       </p>
+      </div>
       <LinkButton text='ir para o espaço' to="/tickets"/>
     </section>
   )
